@@ -81,3 +81,51 @@
   border: none;
   font-size: 17px;
 }
+.summary-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.summary-table th, .summary-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.summary-table th {
+  background-color: #f2f2f2;
+}
+.team-page {
+  text-align: center;
+}
+
+.team-member {
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.team-member h2 {
+  margin-top: 10px;
+}
+
+.team-member p {
+  font-style: italic;
+}
+.video-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
