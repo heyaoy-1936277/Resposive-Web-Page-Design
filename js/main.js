@@ -18,3 +18,11 @@ function responsive_control() {
     x.className = "topnav";
   }
 }
+
+function reload(id) 
+{
+    var buggyid = document.getElementById(id);
+    buggyid.src = buggyid.src;
+}
+
+setTimeout(reload, 1, 'map');
